@@ -1,4 +1,4 @@
-package com.iwin.com;
+package com.iwin.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
