@@ -20,3 +20,8 @@ server:
 knife4j:
   basic:
     enable: true
+
+jasypt:
+  encryptor:
+    #加密秘钥
+    password: EbfYkitulv73I2p0mXI50JMXoaxZTKJ7

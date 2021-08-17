@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: test
+    active: dev
 
 # springboot 配置文件加载优先级
   #   1. config/application.yml
