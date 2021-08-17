@@ -2,13 +2,13 @@ package com.iwin.controller;
 
 import com.iwin.common.AjaxResponse;
 import com.iwin.entity.Student;
-import io.swagger.annotations.*;
-import lombok.Data;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
@@ -20,6 +20,8 @@ import java.util.Date;
  **/
 @Slf4j
 @RestController
+
+@Api(description = "用户接口",tags = {"标题"}, value = "测试")
 public class StudentController {
 
     @GetMapping("/student/{id}")
@@ -36,13 +38,14 @@ public class StudentController {
 
         return AjaxResponse.success(student);
     }
-    @ApiOperation(value = "添加学生", notes = "添加新学生", tags = "新的分组", httpMethod = "POST")
+ /*   @Operation(summary = "接口方法描述")
+    @Parameters({
+            @Parameter(name = "name", description = "学生姓名", required = true),
+            @Parameter(name = "age", description = "学生年龄", required = true)
+    })*/
+    @ApiOperation(value = "接口方法描述")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "name", value = "学生姓名", required = true, dataType = "string"),
-            @ApiImplicitParam(name = "age", value = "学生年龄", required = true, dataType = "int")
-    })
-    @ApiResponses({
-            @ApiResponse(code = 200, message = "成功", response = AjaxResponse.class)
+            @ApiImplicitParam(name = "学生姓名", value = "name", dataType = "string",required = true)
     })
     @PostMapping("/student")
     public AjaxResponse saveStudent(@RequestBody Student student) {

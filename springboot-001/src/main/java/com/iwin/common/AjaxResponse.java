@@ -2,6 +2,7 @@ package com.iwin.common;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,15 +17,15 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 @Builder
-@ApiModel(value = "统一 返回结果")
+@Schema(title = "统一 返回结果")
 public class AjaxResponse {
-    @ApiModelProperty(value = "请求是否处理成功")
+    @Schema(title = "请求是否处理成功")
     private boolean isOk;
-    @ApiModelProperty(value = "请求状态码", example = "200, 400, 500")
+    @Schema(title = "请求状态码", example = "200, 400, 500")
     private Integer code;
-    @ApiModelProperty(value = "请求结果描述信息")
+    @Schema(title = "请求结果描述信息")
     private String message;
-    @ApiModelProperty(value = "请求结果响应数据")
+    @Schema(title = "请求结果响应数据")
     private Object data;
 
     public AjaxResponse() {

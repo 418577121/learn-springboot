@@ -32,7 +32,6 @@ import java.util.*;
  **/
 @EnableOpenApi
 @Configuration
-
 public class SwaggerConfiguration implements WebMvcConfigurer {
     private final SwaggerProperties swaggerProperties;
 
@@ -55,7 +54,8 @@ public class SwaggerConfiguration implements WebMvcConfigurer {
 
                 // 选择哪些接口作为swagger的doc发布
                 .select()
-                .apis(RequestHandlerSelectors.any())
+                .apis(RequestHandlerSelectors.basePackage("com.iwin.controller"))//将那些包作为接口文档来显示
+                //.apis(RequestHandlerSelectors.any())// 任何包
                 .paths(PathSelectors.any())
                 .build()
 

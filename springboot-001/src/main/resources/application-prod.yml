@@ -1,0 +1,22 @@
+
+# 格式化全局时间字段
+spring:
+  application:
+    name: springboot
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+# 指定时间区域类型
+    time-zone: GMT+8
+# ===== 自定义swagger配置 ===== #
+swagger:
+  enable: true
+  application-name: ${spring.application.name}
+  application-version: 1.0
+  application-description: springfox swagger 3.0整合Demo
+  try-host: http://localhost:${server.port}
+server:
+  port: 8080
+
+knife4j:
+  basic:
+    enable: true

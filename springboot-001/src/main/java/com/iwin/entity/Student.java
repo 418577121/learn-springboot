@@ -21,8 +21,6 @@ public class Student  {
 
     @JsonIgnore // 忽略字段
     private Long id;
-
-   // @JsonProperty("username") // 返回值改变名称
     private String name;
 
     @JsonInclude(JsonInclude.Include.NON_NULL) // 值为null 时不返回

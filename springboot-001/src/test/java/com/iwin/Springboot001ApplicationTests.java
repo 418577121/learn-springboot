@@ -51,4 +51,9 @@ public class Springboot001ApplicationTests {
         System.out.println(LocalDateTime.now());
     }
 
+    @Test
+    public void testProperties() {
+
+    }
+
 }
