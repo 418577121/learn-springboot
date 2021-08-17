@@ -2,6 +2,7 @@ package com.iwin.controller;
 
 import com.iwin.common.AjaxResponse;
 import com.iwin.entity.Student;
+import io.swagger.annotations.*;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -35,6 +36,14 @@ public class StudentController {
 
         return AjaxResponse.success(student);
     }
+    @ApiOperation(value = "添加学生", notes = "添加新学生", tags = "新的分组", httpMethod = "POST")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "name", value = "学生姓名", required = true, dataType = "string"),
+            @ApiImplicitParam(name = "age", value = "学生年龄", required = true, dataType = "int")
+    })
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "成功", response = AjaxResponse.class)
+    })
     @PostMapping("/student")
     public AjaxResponse saveStudent(@RequestBody Student student) {
 
