@@ -2,6 +2,7 @@ package com.iwin;
 
 import com.iwin.controller.StudentController;
 import com.iwin.entity.Employee;
+import com.iwin.entity.Person;
 import com.iwin.entity.School;
 import lombok.extern.slf4j.Slf4j;
 import org.jasypt.encryption.StringEncryptor;
@@ -54,4 +55,12 @@ public class Springboot001ApplicationTests1 {
         System.out.println(decrypt);
     }
 
+    @Test
+    public void test2121() {
+        Person person = new Person();
+        person.setId(1);
+        person.setName("iwin");
+        person.setCreateTime(LocalDateTime.now());
+        System.out.println(person);
+    }
 }
