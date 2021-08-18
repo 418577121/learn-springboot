@@ -7,17 +7,17 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
 # 指定时间区域类型
     time-zone: GMT+8
-  datasource:
-    primary:
-        jdbc-url: jdbc:mysql://106.14.157.213:3306/springboot?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
-        username: root
-        password: Dinghaiting19980501@
-        driver-class-name: com.mysql.cj.jdbc.Driver
-    secondary:
-      jdbc-url: jdbc:mysql://106.14.157.213:3306/springboot1?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
-      username: root
-      password: Dinghaiting19980501@
-      driver-class-name: com.mysql.cj.jdbc.Driver
+#  datasource:
+#    primary:
+#        jdbc-url: jdbc:mysql://106.14.157.213:3306/springboot?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+#        username: root
+#        password: Dinghaiting19980501@
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#    secondary:
+#      jdbc-url: jdbc:mysql://106.14.157.213:3306/springboot1?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+#      username: root
+#      password: Dinghaiting19980501@
+#      driver-class-name: com.mysql.cj.jdbc.Driver
 # ===== 自定义swagger配置 ===== #
 swagger:
   enable: true
@@ -36,3 +36,27 @@ jasypt:
   encryptor:
     #加密秘钥
     password: EbfYkitulv73I2p0mXI50JMXoaxZTKJ7
+
+primarydb:
+  uniqueResourceName: primary
+  xaDataSourceClassName: com.mysql.cj.jdbc.MysqlXADataSource
+  xaProperties:
+     url: jdbc:mysql://106.14.157.213:3306/springboot?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+     user: root
+     password: Dinghaiting19980501@
+  exclusiveConnectionMode: true
+  minPoolSize: 3
+  maxPoolSize: 10
+  testQery: select 1 from dual
+
+secondarydb:
+  uniqueResourceName: secondary
+  xaDataSourceClassName: com.mysql.cj.jdbc.MysqlXADataSource
+  xaProperties:
+    url: jdbc:mysql://106.14.157.213:3306/springboot1?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    user: root
+    password: Dinghaiting19980501@
+  exclusiveConnectionMode: true
+  minPoolSize: 3
+  maxPoolSize: 10
+  testQery: select 1 from dual

@@ -1,5 +1,6 @@
 package com.iwin.config;
 
+import com.atomikos.jdbc.AtomikosDataSourceBean;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
@@ -21,7 +22,7 @@ import javax.sql.DataSource;
 @Configuration
 public class DatasourceConfig {
 
-    @Primary
+   /* @Primary
     @Bean("primaryDataSource")
     @ConfigurationProperties(prefix = "spring.datasource.primary")
     public DataSource primaryDataSource() {
@@ -32,8 +33,19 @@ public class DatasourceConfig {
     @ConfigurationProperties(prefix = "spring.datasource.secondary")
     public DataSource secondaryDataSource() {
         return DataSourceBuilder.create().build();
-    }
+    }*/
+   @Primary
+   @Bean(name = "primaryDataSource", initMethod = "init", destroyMethod = "close")
+   @ConfigurationProperties(prefix = "primarydb")
+   public DataSource primaryDataSource() {
+       return new AtomikosDataSourceBean();
+   }
 
+    @Bean(name = "secondaryDataSource", initMethod = "init", destroyMethod = "close")
+    @ConfigurationProperties(prefix = "secondarydb")
+    public DataSource secondaryDataSource() {
+        return new AtomikosDataSourceBean();
+    }
     @Bean("primaryJdbcTemplate")
     public JdbcTemplate primaryJdbcTemplate(@Qualifier("primaryDataSource") DataSource dataSource) {
         return new JdbcTemplate(dataSource);
