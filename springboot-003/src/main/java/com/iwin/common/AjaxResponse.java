@@ -1,6 +1,8 @@
 package com.iwin.common;
 
 
+import com.iwin.exception.CustomException;
+import com.iwin.exception.CustomExceptionType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -26,7 +28,7 @@ public class AjaxResponse {
    // @Schema(title = "请求结果响应数据")
     private Object data;
 
-    public AjaxResponse() {
+    private AjaxResponse() {
     }
 
     /**
@@ -36,7 +38,7 @@ public class AjaxResponse {
      */
     public static AjaxResponse success(Object data) {
      return AjaxResponse.builder()
-             .isOk(true).code(200).message("请求成功").data(data)
+             .isOk(true).code(200).message("success").data(data)
              .build();
     }
 
@@ -44,7 +46,7 @@ public class AjaxResponse {
 
     public static AjaxResponse success() {
         return AjaxResponse.builder()
-                .isOk(true).code(200).message("请求成功")
+                .isOk(true).code(200).message("success")
                 .build();
     }
     /**
@@ -59,4 +61,20 @@ public class AjaxResponse {
                 .build();
     }
 
+    public static AjaxResponse error(CustomException e) {
+        return AjaxResponse.builder()
+                .isOk(false)
+                .code(e.getCode())
+                .message(e.getMessage())
+                .build();
+    }
+
+    public static AjaxResponse error(CustomExceptionType customExceptionType,
+                                     String errorMessage) {
+        return AjaxResponse.builder()
+                .isOk(false)
+                .code(customExceptionType.getCode())
+                .message(errorMessage)
+                .build();
+    }
 }

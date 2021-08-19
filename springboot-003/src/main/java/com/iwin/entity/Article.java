@@ -3,6 +3,7 @@ package com.iwin.entity;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;
+import org.hibernate.validator.constraints.NotEmpty;
 
 import java.util.Date;
 
@@ -19,6 +20,7 @@ public class Article {
     private Integer id;
     private String author;
     private String title;
+    @NotEmpty(message = "标题不能为空")
     private String content;
     private Date createTime;
 }
