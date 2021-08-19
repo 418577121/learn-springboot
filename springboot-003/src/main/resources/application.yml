@@ -1,11 +1,11 @@
 spring:
-  application:
-    name: springboot
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
-  datasource:
-    url: jdbc:mysql://106.14.157.213:3306/springboot?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: Dinghaiting19980501@
-    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: prod
+
+#  生产环境输出到控制台和文件,一天一个文件,保留30天.
+#  开发环境输出到控制台和打印sql(mybatis)输出，生产环境不打印这个信息
+#  测试环境只输出到控制台。不输出到文件
+#    异步日志配置：
+#
+#    异步日志queueSize 默认值256，异步日志队列的容量。
+#    discardingThreshold：当异步日志队列的剩余容量小于这个阈值，会丢弃TRACE, DEBUG or INFO级别的日志。如果不希望丢弃日志（即全量保存），那可以设置为0。但是当队列占满后，非阻塞的异步日志会变成阻塞的同步日志。所以在高并发低延迟要求的系统里面针对不重要的日志可以设置discardingThreshold丢弃策略，值大于0。
