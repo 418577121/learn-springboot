@@ -72,11 +72,11 @@ public class AccessLogInterceptor implements HandlerInterceptor {
         long currentTime = System.currentTimeMillis();
 
         //请求开始时间
-        long snedTime = Long.valueOf(request.getAttribute(LOGGER_SEND_TIME).toString());
+        long sendTime = Long.valueOf(request.getAttribute(LOGGER_SEND_TIME).toString());
 
 
         //设置请求时间差
-        accessLog.setDuration(Integer.valueOf((currentTime - snedTime)+""));
+        accessLog.setDuration(Integer.valueOf((currentTime - sendTime)+""));
 
         accessLog.setCreateTime(new Date());
         //将sysLog对象持久化保存
