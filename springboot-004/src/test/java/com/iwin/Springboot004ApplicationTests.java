@@ -7,12 +7,14 @@ import com.baomidou.mybatisplus.generator.config.GlobalConfig;
 import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
+
 import com.iwin.entity.SysUser;
 import com.iwin.mapper.SysUserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -20,19 +22,28 @@ import java.util.List;
 public class Springboot004ApplicationTests {
 
     @Resource
-    private SysUserMapper sysUserMapper;
+    private SysUserMapper userMapper;
 
     @Test
-    public void contextLoads() {
+    public void addSysUser() {
         SysUser sysUser = new SysUser();
-        sysUser.setUserName("测试");
         sysUser.setCreateTime(LocalDateTime.now());
-        int insert = sysUserMapper.insert(sysUser);
-        System.out.println(insert);
+        sysUser.setEmail("wwww@QQ.com");
+        sysUser.setDeptId(BigDecimal.valueOf(1));
+        sysUser.setLoginName("测试");
+        sysUser.setUserName("admin");
+        sysUser.setAdminFlag("0");
+        sysUser.setUserType("1");
+        sysUser.setPhoneNumber("1232132323");
+        sysUser.setPassword("11");
+        sysUser.setSalt("111");
+        userMapper.insert(sysUser);
+    }
 
-       /* List<SysUser> sysUsers = sysUserMapper.selectList(null);
-        System.out.println(sysUsers);*/
-
+    @Test
+    public void getAll() {
+        List<SysUser> sysUsers = userMapper.selectList(null);
+        System.out.println(sysUsers);
     }
 
     @Test
@@ -69,7 +80,19 @@ public class Springboot004ApplicationTests {
                 //.setSuperControllerClass("自定义继承的Controller类全称，带包名,没有就不用设置!")
                 .setRestControllerStyle(true) //生成 @RestController 控制器
                 .setEntityLombokModel(true)//使用lombok
-                .setInclude("SYS_USER");//逆向工程使用的表
+                .setInclude("SYS_USER",
+                        "SYS_DEPT",
+                        "SYS_DEPT_USER",
+                        "SYS_USER_CHANNEL",
+                        "SYS_ROLE",
+                        "SYS_USER_ROLE_DISTRIBUTION",
+                        "SYS_USER_ROLE_USE",
+                        "SYS_MENU",
+                        "SYS_ROLE_MENU",
+                        "SYS_USER_MENU_DISTRIBUTION",
+                        "SYS_USER_MENU_USE",
+                        "SYS_OPER_LOG"
+                        );//逆向工程使用的表
         //4、包名策略配置
         PackageConfig packageConfig = new PackageConfig();
         packageConfig.setParent("com.iwin")//设置包名的parent

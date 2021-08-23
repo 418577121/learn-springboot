@@ -1,22 +1,15 @@
 package com.iwin.entity;
 
 import java.math.BigDecimal;
-
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import java.time.LocalDateTime;
 import java.io.Serializable;
-
-import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 
+ * 用户表
  * </p>
  *
  * @author iwin
@@ -24,31 +17,104 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-//@JsonInclude(JsonInclude.Include.NON_NULL) // 值为null 时不返回
 public class SysUser extends Model<SysUser> {
 
     private static final long serialVersionUID = 1L;
 
     /**
-     * 用户id
+     * 用户ID
      */
-    @TableId(type = IdType.AUTO)
     private BigDecimal userId;
 
+    /**
+     * 部门ID
+     */
+    private BigDecimal deptId;
+
+    /**
+     * 登录账号
+     */
+    private String loginName;
+
+    /**
+     * 用户昵称
+     */
     private String userName;
 
-    private String status;
+    /**
+     * 用户类型（01:OA用户，02:非OA用户）
+     */
+    private String userType;
 
-    private String delFlag;
+    /**
+     * 管理员标识（00:超级管理员，01:一级管理员，02:二级管理员，03:非管理员）
+     */
+    private String adminFlag;
 
+    /**
+     * 用户邮箱
+     */
+    private String email;
+
+    /**
+     * 手机号码
+     */
+    private String phoneNumber;
+
+    /**
+     * 密码
+     */
+    private String password;
+
+    /**
+     * 盐加密
+     */
+    private String salt;
+
+    /**
+     * 帐号状态（0正常 1停用）
+     */
+    private Integer status;
+
+    /**
+     * 最后登陆IP
+     */
+    private String loginIp;
+
+    /**
+     * 最后登陆时间
+     */
+    private LocalDateTime loginDate;
+
+    /**
+     * 创建者
+     */
     private String createBy;
 
-    private String updateBy;
-
-    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "Asia/Shanghai")
+    /**
+     * 创建时间
+     */
     private LocalDateTime createTime;
 
+    /**
+     * 更新者
+     */
+    private String updateBy;
+
+    /**
+     * 更新时间
+     */
     private LocalDateTime updateTime;
+
+    /**
+     * 备注
+     */
+    private String remark;
+
+    /**
+     * 删除标志（0代表存在 2代表删除）
+     */
+    private Integer delFlag;
 
 
     @Override

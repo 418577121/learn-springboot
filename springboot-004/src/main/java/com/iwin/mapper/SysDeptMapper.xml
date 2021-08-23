@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iwin.mapper.SysDeptMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.iwin.entity.SysDept">
+        <id column="DEPT_ID" property="deptId" />
+        <result column="PARENT_ID" property="parentId" />
+        <result column="ANCESTORS" property="ancestors" />
+        <result column="DEPT_NAME" property="deptName" />
+        <result column="IS_LEAF" property="isLeaf" />
+        <result column="LEVEL_TREE" property="levelTree" />
+        <result column="ORDER_NUM" property="orderNum" />
+        <result column="STATUS" property="status" />
+        <result column="DEL_FLAG" property="delFlag" />
+        <result column="CREATE_BY" property="createBy" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="UPDATE_BY" property="updateBy" />
+        <result column="UPDATE_TIME" property="updateTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        DEPT_ID, PARENT_ID, ANCESTORS, DEPT_NAME, IS_LEAF, LEVEL_TREE, ORDER_NUM, STATUS, DEL_FLAG, CREATE_BY, CREATE_TIME, UPDATE_BY, UPDATE_TIME
+    </sql>
+
+</mapper>
