@@ -5,23 +5,23 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.iwin.entity.SysDept">
         <id column="DEPT_ID" property="deptId" />
-        <result column="PARENT_ID" property="parentId" />
-        <result column="ANCESTORS" property="ancestors" />
         <result column="DEPT_NAME" property="deptName" />
-        <result column="IS_LEAF" property="isLeaf" />
-        <result column="LEVEL_TREE" property="levelTree" />
-        <result column="ORDER_NUM" property="orderNum" />
-        <result column="STATUS" property="status" />
-        <result column="DEL_FLAG" property="delFlag" />
-        <result column="CREATE_BY" property="createBy" />
+        <result column="DEPT_CODE" property="deptCode" />
+        <result column="PAR_DEPT_ID" property="parDeptId" />
+        <result column="DEPT_LEADER" property="deptLeader" />
+        <result column="DEPT_DESC" property="deptDesc" />
         <result column="CREATE_TIME" property="createTime" />
-        <result column="UPDATE_BY" property="updateBy" />
-        <result column="UPDATE_TIME" property="updateTime" />
+        <result column="ORG_ID" property="orgId" />
+        <result column="DEPT_TYPE" property="deptType" />
+        <result column="ORDER_ID" property="orderId" />
+        <result column="STATE" property="state" />
+        <result column="BQQ_DEPT_ID" property="bqqDeptId" />
+        <result column="BQQ_PAR_DEPT_ID" property="bqqParDeptId" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        DEPT_ID, PARENT_ID, ANCESTORS, DEPT_NAME, IS_LEAF, LEVEL_TREE, ORDER_NUM, STATUS, DEL_FLAG, CREATE_BY, CREATE_TIME, UPDATE_BY, UPDATE_TIME
+        DEPT_ID, DEPT_NAME, DEPT_CODE, PAR_DEPT_ID, DEPT_LEADER, DEPT_DESC, CREATE_TIME, ORG_ID, DEPT_TYPE, ORDER_ID, STATE, BQQ_DEPT_ID, BQQ_PAR_DEPT_ID
     </sql>
 
 </mapper>

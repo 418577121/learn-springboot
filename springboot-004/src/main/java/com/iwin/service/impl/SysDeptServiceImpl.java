@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 
 /**
  * <p>
- * 部门表 服务实现类
+ * 部门信息，和单位多对一 服务实现类
  * </p>
  *
  * @author iwin
- * @since 2021-08-23
+ * @since 2021-08-25
  */
 @Service
 public class SysDeptServiceImpl extends ServiceImpl<SysDeptMapper, SysDept> implements SysDeptService {

@@ -2,18 +2,17 @@ package com.iwin.entity;
 
 import java.math.BigDecimal;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
-import java.time.LocalDateTime;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 /**
  * <p>
- * 部门表
+ * 部门信息，和单位多对一
  * </p>
  *
  * @author iwin
- * @since 2021-08-23
+ * @since 2021-08-25
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
@@ -22,69 +21,69 @@ public class SysDept extends Model<SysDept> {
     private static final long serialVersionUID = 1L;
 
     /**
-     * 部门id
+     * 主键
      */
-    private BigDecimal deptId;
+    private String deptId;
 
     /**
-     * 父部门id
-     */
-    private BigDecimal parentId;
-
-    /**
-     * 祖级列表(所有父级id)
-     */
-    private String ancestors;
-
-    /**
-     * 部门名称
+     * 名称
      */
     private String deptName;
 
     /**
-     * 0:不是叶子节点(可继续创建子级部门)，1:是叶子节点(不可创建子级部门)
+     * 编码，用于递归
      */
-    private Integer isLeaf;
+    private String deptCode;
 
     /**
-     * 层级关系
+     * 父级部门ID
      */
-    private Integer levelTree;
+    private String parDeptId;
 
     /**
-     * 显示顺序
+     * 部门领导ID
      */
-    private Integer orderNum;
+    private String deptLeader;
 
     /**
-     * 部门状态（0正常 1停用）
+     * 部门描述
      */
-    private Integer status;
+    private String deptDesc;
 
     /**
-     * 删除标志（0代表存在 2代表删除）
+     * yyyy-mm-dd HH:MM:SS
      */
-    private Integer delFlag;
+    private String createTime;
 
     /**
-     * 创建者
+     * 单位ID
      */
-    private String createBy;
+    private String orgId;
 
     /**
-     * 创建时间
+     * 1：正式部门；2：虚拟部门（用于通讯录展示）
      */
-    private LocalDateTime createTime;
+    private String deptType;
 
     /**
-     * 更新者
+     * 排序字段
      */
-    private String updateBy;
+    private BigDecimal orderId;
 
     /**
-     * 更新时间
+     * 0：无效；1：有效
      */
-    private LocalDateTime updateTime;
+    private String state;
+
+    /**
+     * 企业qqdeptid
+     */
+    private String bqqDeptId;
+
+    /**
+     * 企业qq父类deptid
+     */
+    private String bqqParDeptId;
 
 
     @Override

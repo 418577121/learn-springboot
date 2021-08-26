@@ -8,20 +8,25 @@ import com.baomidou.mybatisplus.generator.config.PackageConfig;
 import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 
-import com.iwin.entity.SysUser;
-import com.iwin.mapper.SysUserMapper;
+import com.iwin.entity.SysDept;
+import com.iwin.mapper.SysDeptMapper;
+import com.iwin.node.SysDeptNode;
+import com.iwin.utils.DataTreeUtil;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.BeanUtils;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
-import java.math.BigDecimal;
-import java.time.LocalDateTime;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @SpringBootTest(classes = Springboot004Application.class)
 public class Springboot004ApplicationTests {
 
     @Resource
+    private SysDeptMapper sysDeptMapper;
+
+/*    @Resource
     private SysUserMapper userMapper;
 
     @Test
@@ -44,7 +49,7 @@ public class Springboot004ApplicationTests {
     public void getAll() {
         List<SysUser> sysUsers = userMapper.selectList(null);
         System.out.println(sysUsers);
-    }
+    }*/
 
     @Test
     public void startGenerator() {
@@ -80,18 +85,8 @@ public class Springboot004ApplicationTests {
                 //.setSuperControllerClass("自定义继承的Controller类全称，带包名,没有就不用设置!")
                 .setRestControllerStyle(true) //生成 @RestController 控制器
                 .setEntityLombokModel(true)//使用lombok
-                .setInclude("SYS_USER",
-                        "SYS_DEPT",
-                        "SYS_DEPT_USER",
-                        "SYS_USER_CHANNEL",
-                        "SYS_ROLE",
-                        "SYS_USER_ROLE_DISTRIBUTION",
-                        "SYS_USER_ROLE_USE",
-                        "SYS_MENU",
-                        "SYS_ROLE_MENU",
-                        "SYS_USER_MENU_DISTRIBUTION",
-                        "SYS_USER_MENU_USE",
-                        "SYS_OPER_LOG"
+                .setInclude(
+                        "SYS_DEPT"
                         );//逆向工程使用的表
         //4、包名策略配置
         PackageConfig packageConfig = new PackageConfig();
@@ -109,6 +104,27 @@ public class Springboot004ApplicationTests {
                 .setPackageInfo(packageConfig);
         //6、执行
         autoGenerator.execute();
+    }
+
+    @Test
+    public void  testTree() {
+        List<SysDept> tree = sysDeptMapper.getTree();
+        System.out.println(tree);
+        List<SysDeptNode> collect = tree.stream().map(item -> {
+            SysDeptNode bean = new SysDeptNode();
+            BeanUtils.copyProperties(item, bean);
+            return bean;
+        }).collect(Collectors.toList());
+
+        List<SysDeptNode> sysDeptNodes = DataTreeUtil.buildTree(collect, "1");
+        System.out.println(sysDeptNodes);
+
+    }
+
+    @Test
+    public void test0001() {
+        SysDeptNode sysDeptNode = new SysDeptNode();
+        System.out.println(sysDeptNode.getDeptId());
     }
 
 }
