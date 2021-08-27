@@ -1,0 +1,7 @@
+com\iwn\config\RedisConfig.class
+com\iwn\entity\ArticleVO$ArticleVOBuilder.class
+com\iwn\entity\Address.class
+com\iwn\entity\Person.class
+com\iwn\entity\ArticleVO.class
+com\iwn\SpringbootRedisApplication.class
+com\iwn\service\MailService.class
