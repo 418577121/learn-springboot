@@ -8,13 +8,13 @@
     INSERT INTO upload (
     string,
     date,
-    doble_date
+    doble_data
     )VALUES
     <foreach collection="list" item="item" index="index" separator=",">
       (
       #{item.string},
       #{item.date},
-      #{item.doble_date}
+      #{item.doubleData}
       )
     </foreach>
   </insert>

@@ -1,5 +1,6 @@
 package com.iwin.exception;
 
+import com.alibaba.excel.exception.ExcelAnalysisException;
 import com.iwin.common.AjaxResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindException;
@@ -74,6 +75,16 @@ public class WebExceptionHandler {
         return AjaxResponse.error(
                 new CustomException(CustomExceptionType.USER_INPUT_ERROR,
                         e.getMessage())
+        );
+    }
+
+
+    @ExceptionHandler(ExcelAnalysisException.class)
+    @ResponseBody
+    public AjaxResponse handleIllegalArgumentException(ExcelAnalysisException e) {
+        return AjaxResponse.error(
+                new CustomException(CustomExceptionType.USER_INPUT_ERROR,
+                        e.getCause().getMessage())
         );
     }
 }
