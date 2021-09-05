@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iwin.mapper.SysUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.iwin.entity.SysUser">
+        <id column="USER_ID" property="userId" />
+        <result column="DEPT_ID" property="deptId" />
+        <result column="LOGIN_NAME" property="loginName" />
+        <result column="USER_NAME" property="userName" />
+        <result column="USER_TYPE" property="userType" />
+        <result column="ADMIN_FLAG" property="adminFlag" />
+        <result column="ID_NO" property="idNo" />
+        <result column="ID_TYPE" property="idType" />
+        <result column="EMAIL" property="email" />
+        <result column="PHONE_NUMBER" property="phoneNumber" />
+        <result column="PASSWORD" property="password" />
+        <result column="STATUS" property="status" />
+        <result column="LOGIN_IP" property="loginIp" />
+        <result column="LOGIN_DATE" property="loginDate" />
+        <result column="CREATE_ID" property="createId" />
+        <result column="OWNER_ID" property="ownerId" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="UPDATE_ID" property="updateId" />
+        <result column="UPDATE_TIME" property="updateTime" />
+        <result column="REMARK" property="remark" />
+        <result column="DEL_FLAG" property="delFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        USER_ID, DEPT_ID, LOGIN_NAME, USER_NAME, USER_TYPE, ADMIN_FLAG, ID_NO, ID_TYPE, EMAIL, PHONE_NUMBER, PASSWORD, STATUS, LOGIN_IP, LOGIN_DATE, CREATE_ID, OWNER_ID, CREATE_TIME, UPDATE_ID, UPDATE_TIME, REMARK, DEL_FLAG
+    </sql>
+
+</mapper>

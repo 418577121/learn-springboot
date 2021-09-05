@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a46f120-e58a-4463-83a9-2afce5bc8298" name="Default Changelist" comment="springboot 。。。。">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_client_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_core_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_ha_ons_19_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_ha_simplefan_19_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc8_19_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ucp_19_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_security_oraclepki_19_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_security_osdt_cert_19_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_security_osdt_core_19_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_67_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_15_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-ceair/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/java/com/iwin/config/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/java/com/iwin/config/MybatisPlusCustomizers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/java/com/iwin/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sync/src/main/java/com/iwin/config/QuartzSimpleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sync/src/main/java/com/iwin/task/QuartzSimpleTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-sync/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/src/main/java/com/iwin/controller/SysDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-004/src/main/java/com/iwin/controller/SysDeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/Springboot004Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/controller/SysDeptController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/entity/SysDept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/mapper/SysDeptMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/node/SysDeptNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/service/SysDeptService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/service/impl/SysDeptServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/utils/DataTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/utils/DataTreeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/springboot-004-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/springboot-004-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/target/test-classes/com/iwin/Springboot004ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/SpringbootRedisApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/config/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/entity/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/entity/ArticleVO$ArticleVOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/entity/ArticleVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/entity/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/service/MailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/templates/freemarker-temp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/springboot-redis-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/springboot-redis-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/test-classes/com/iwn/RedisConfigTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-redis/target/test-classes/com/iwn/SpringbootRedisApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-sync/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-sync/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../softwore/installSoft/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\softwore\installSoft\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="jreName" value="1.8" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1wmtNPKpCJLlv4Cj4OxBMqSIJ6U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/springboot-001/src/main/java/com/iwin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-ceair/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21363038" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.iwin.servcie" />
+      <recent name="com.iwin.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\java_project\learn-springboot\springboot-ceair\src\main\resources" />
+      <recent name="D:\study\java_project\learn-springboot\springboot-oracle\src\main\resources" />
+      <recent name="D:\study\java_project\learn-springboot\springboot-004\src\main\java\com\iwin\utils" />
+      <recent name="D:\study\java_project\learn-springboot\springboot-003\src\main\resources\com\iwin\mapper" />
+      <recent name="D:\study\java_project\learn-springboot\springboot-001\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\java_project\learn-springboot\springboot-002\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.iwin.entity" />
+      <recent name="com.iwin.controller" />
+      <recent name="com.iwin.common" />
+      <recent name="com.iwin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringbootCeairApplicationTests.startGenerator">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApolloApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-apollo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iwin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iwin" />
+      <option name="MAIN_CLASS_NAME" value="com.iwin.SpringbootApolloApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="-Dapp.id" value="apollo-quickstart" />
+        <env name="-Denv" value="DEV" />
+        <env name="-Ddev_meta" value="http;//localhost:8080" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApolloApplicationTests.testApollo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-apollo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iwin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iwin" />
+      <option name="MAIN_CLASS_NAME" value="com.iwin.SpringbootApolloApplicationTests" />
+      <option name="METHOD_NAME" value="testApollo" />
+      <option name="TEST_OBJECT" value="method" />
+      <envs>
+        <env name="-Dapp.id" value="apollo-quickstart -Denv=DEV -Ddev_meta=http://localhost:8080" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootCeairApplicationTests.startGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-ceair" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iwin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iwin" />
+      <option name="MAIN_CLASS_NAME" value="com.iwin.SpringbootCeairApplicationTests" />
+      <option name="METHOD_NAME" value="startGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootOracleApplicationTests.startGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-oracle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iwin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iwin" />
+      <option name="MAIN_CLASS_NAME" value="com.iwin.SpringbootOracleApplicationTests" />
+      <option name="METHOD_NAME" value="startGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRedisApplicationTests.sendAttachmentsMailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iwn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iwn" />
+      <option name="MAIN_CLASS_NAME" value="com.iwn.SpringbootRedisApplicationTests" />
+      <option name="METHOD_NAME" value="sendAttachmentsMailTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.Springboot001Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.Springboot002Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.Springboot003Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot004Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.Springboot004Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot005Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.Springboot005Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootApolloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-apollo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.SpringbootApolloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootCeairApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-ceair" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.SpringbootCeairApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootOracleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-oracle" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.SpringbootOracleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwn.SpringbootRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootSyncApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-sync" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iwin.SpringbootSyncApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringbootRedisApplicationTests.sendAttachmentsMailTest" />
+      <item itemvalue="JUnit.SpringbootApolloApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.SpringbootApolloApplicationTests.testApollo" />
+      <item itemvalue="JUnit.SpringbootOracleApplicationTests.startGenerator" />
+      <item itemvalue="JUnit.SpringbootCeairApplicationTests.startGenerator" />
+      <item itemvalue="Spring Boot.Springboot001Application" />
+      <item itemvalue="Spring Boot.Springboot002Application" />
+      <item itemvalue="Spring Boot.Springboot003Application" />
+      <item itemvalue="Spring Boot.Springboot004Application" />
+      <item itemvalue="Spring Boot.Springboot005Application" />
+      <item itemvalue="Spring Boot.SpringbootSyncApplication" />
+      <item itemvalue="Spring Boot.SpringbootRedisApplication" />
+      <item itemvalue="Spring Boot.SpringbootApolloApplication" />
+      <item itemvalue="Spring Boot.SpringbootOracleApplication" />
+      <item itemvalue="Spring Boot.SpringbootCeairApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringbootCeairApplicationTests.startGenerator" />
+        <item itemvalue="JUnit.SpringbootOracleApplicationTests.startGenerator" />
+        <item itemvalue="JUnit.SpringbootApolloApplicationTests.testApollo" />
+        <item itemvalue="JUnit.SpringbootApolloApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SpringbootRedisApplicationTests.sendAttachmentsMailTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a46f120-e58a-4463-83a9-2afce5bc8298" name="Default Changelist" comment="" />
+      <created>1629075551888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629075551888</updated>
+      <workItem from="1629075553637" duration="3790000" />
+      <workItem from="1629080116091" duration="351000" />
+      <workItem from="1629080480662" duration="140000" />
+      <workItem from="1629080634294" duration="207000" />
+      <workItem from="1629080853883" duration="785000" />
+      <workItem from="1629082528640" duration="9215000" />
+      <workItem from="1629100702692" duration="3563000" />
+      <workItem from="1629115615805" duration="5358000" />
+      <workItem from="1629167920068" duration="15109000" />
+      <workItem from="1629210191775" duration="168000" />
+      <workItem from="1629210651197" duration="6245000" />
+      <workItem from="1629249865674" duration="17226000" />
+      <workItem from="1629294378273" duration="34000" />
+      <workItem from="1629294424304" duration="32000" />
+      <workItem from="1629294525274" duration="5202000" />
+      <workItem from="1629335155980" duration="24693000" />
+      <workItem from="1629423996074" duration="11700000" />
+      <workItem from="1629612728550" duration="1318000" />
+      <workItem from="1629634183271" duration="2738000" />
+      <workItem from="1629681284619" duration="617000" />
+      <workItem from="1629681916227" duration="1588000" />
+      <workItem from="1629684777971" duration="6760000" />
+      <workItem from="1629705066672" duration="4446000" />
+      <workItem from="1629895490524" duration="7495000" />
+      <workItem from="1629942531335" duration="14272000" />
+      <workItem from="1630025216057" duration="11788000" />
+      <workItem from="1630228797539" duration="2539000" />
+      <workItem from="1630233481798" duration="705000" />
+      <workItem from="1630321262746" duration="7918000" />
+      <workItem from="1630584741895" duration="12212000" />
+      <workItem from="1630768468347" duration="3255000" />
+      <workItem from="1630804168460" duration="454000" />
+    </task>
+    <task id="LOCAL-00001" summary="修改包名称">
+      <created>1629078008435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629078008435</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交">
+      <created>1629115677814</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629115677814</updated>
+    </task>
+    <task id="LOCAL-00003" summary="springboot 整合swagger3、knife4j 生成离线文档">
+      <created>1629171007894</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629171007894</updated>
+    </task>
+    <task id="LOCAL-00004" summary="@PropertySource读取非springboot内置配置文件   @ImportResource 将xml文件中的bean加入springboot上下文">
+      <created>1629187246967</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629187246967</updated>
+    </task>
+    <task id="LOCAL-00005" summary="profiles 多环境配置文件">
+      <created>1629187535722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629187535722</updated>
+    </task>
+    <task id="LOCAL-00006" summary="springboo002构建 配置文件优先级">
+      <created>1629208869842</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629208869842</updated>
+    </task>
+    <task id="LOCAL-00007" summary="springboo002构建 配置文件优先级">
+      <created>1629210257161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629210257161</updated>
+    </task>
+    <task id="LOCAL-00008" summary="springjdbc 多数据源配置">
+      <created>1629252036307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629252036307</updated>
+    </task>
+    <task id="LOCAL-00009" summary="atomikos 分布式事务处理">
+      <created>1629253572497</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629253572497</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init springboot-002">
+      <created>1629254335472</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1629254335472</updated>
+    </task>
+    <task id="LOCAL-00011" summary="springboo jpa 多数据源 分布式处理">
+      <created>1629293480952</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1629293480952</updated>
+    </task>
+    <task id="LOCAL-00012" summary="springboot-003 init">
+      <created>1629295301997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629295301997</updated>
+    </task>
+    <task id="LOCAL-00013" summary="springboot 整合mybatis plus">
+      <created>1629301172322</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1629301172322</updated>
+    </task>
+    <task id="LOCAL-00014" summary="统一返回json数据，全局异常处理">
+      <created>1629342669022</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1629342669022</updated>
+    </task>
+    <task id="LOCAL-00015" summary="全局日志处理">
+      <created>1629347355098</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629347355098</updated>
+    </task>
+    <task id="LOCAL-00016" summary="参数命名">
+      <created>1629347753209</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1629347753209</updated>
+    </task>
+    <task id="LOCAL-00017" summary="springboot oracle">
+      <created>1629698394293</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1629698394293</updated>
+    </task>
+    <task id="LOCAL-00018" summary="springboot oracle">
+      <created>1629722409498</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1629722409498</updated>
+    </task>
+    <task id="LOCAL-00019" summary="springboot 实现树形结构，返回给前端">
+      <created>1629960329089</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1629960329089</updated>
+    </task>
+    <task id="LOCAL-00020" summary="springboot 自带定时任务">
+      <created>1630025276793</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1630025276793</updated>
+    </task>
+    <task id="LOCAL-00021" summary="springboot 支持邮件功能">
+      <created>1630052680216</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1630052680216</updated>
+    </task>
+    <task id="LOCAL-00022" summary="springboot 。。。。">
+      <created>1630584835538</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1630584835538</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改包名称" />
+    <MESSAGE value="提交" />
+    <MESSAGE value="springboot 整合swagger3、knife4j 生成离线文档" />
+    <MESSAGE value="@PropertySource读取非springboot内置配置文件   @ImportResource 将xml文件中的bean加入springboot上下文" />
+    <MESSAGE value="profiles 多环境配置文件" />
+    <MESSAGE value="springboo002构建 配置文件优先级" />
+    <MESSAGE value="springjdbc 多数据源配置" />
+    <MESSAGE value="atomikos 分布式事务处理" />
+    <MESSAGE value="init springboot-002" />
+    <MESSAGE value="springboo jpa 多数据源 分布式处理" />
+    <MESSAGE value="springboot-003 init" />
+    <MESSAGE value="springboot 整合mybatis plus" />
+    <MESSAGE value="统一返回json数据，全局异常处理" />
+    <MESSAGE value="全局日志处理" />
+    <MESSAGE value="参数命名" />
+    <MESSAGE value="springboot oracle" />
+    <MESSAGE value="springboot 实现树形结构，返回给前端" />
+    <MESSAGE value="springboot 自带定时任务" />
+    <MESSAGE value="springboot 只是邮件上传" />
+    <MESSAGE value="springboot 支持邮件功能" />
+    <MESSAGE value="springboot 。。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot 。。。。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-001/src/main/java/com/iwin/config/MixPropertySourceFactory.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-001/src/main/java/com/iwin/controller/ArticleController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-002/src/main/java/com/iwin/controller/LogTestController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-003/src/main/java/com/iwin/config/UploadDataListener.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-003/src/main/java/com/iwin/config/UploadDataListener.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-003/src/main/java/com/iwin/controller/ExcelTestController.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Response" memberName="coyoteResponse" />
+        <PinnedItemInfo parentTag="com.alibaba.excel.exception.ExcelAnalysisException" memberName="cause" />
+        <PinnedItemInfo parentTag="com.alibaba.excel.exception.ExcelAnalysisException" memberName="detailMessage" />
+        <PinnedItemInfo parentTag="org.apache.catalina.connector.Response" memberName="outputBuffer" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

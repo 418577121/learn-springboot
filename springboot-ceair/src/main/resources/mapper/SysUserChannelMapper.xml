@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iwin.mapper.SysUserChannelMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.iwin.entity.SysUserChannel">
+        <id column="ID" property="id" />
+        <result column="USER_ID" property="userId" />
+        <result column="CHANNEL" property="channel" />
+        <result column="PERMS_FLAG" property="permsFlag" />
+        <result column="CREATE_ID" property="createId" />
+        <result column="CREATE_TIME" property="createTime" />
+        <result column="UPDATE_ID" property="updateId" />
+        <result column="UPDATE_TIME" property="updateTime" />
+        <result column="DEL_FLAG" property="delFlag" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        ID, USER_ID, CHANNEL, PERMS_FLAG, CREATE_ID, CREATE_TIME, UPDATE_ID, UPDATE_TIME, DEL_FLAG
+    </sql>
+
+</mapper>
