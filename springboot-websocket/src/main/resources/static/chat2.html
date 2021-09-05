@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多人聊天</title>
+    <script src="/iwin/webjars/jquery/3.6.0/dist/jquery.min.js"></script>
+    <script src="/iwin/webjars/sockjs-client/1.5.1/sockjs.min.js"></script>
+    <script src="/iwin/webjars/stomp-websocket/2.3.4/stomp.min.js"></script>
+</head>
+<body>
+  <div>
+      <label for="username">请输入用户名:</label>
+      <input type="text" id="username" placeholder="用户名">
+  </div>
+
+ <div>
+     <input type="button" value="连接" id="connect">
+     <input type="button" value="断开连接" id="disconnect" disabled="disabled">
+ </div>
+
+ <div id="chat"></div>
+
+ <div>
+     <label for="content"> 请输入聊天内容</label>
+     <input type="text" id="content" placeholder="聊天内容">
+ </div>
+<button id="send">发送</button>
+<script>
+    let stompClient;
+    $(function () {
+        $("#connect").click(function () {
+            connect();
+            $("#send").click(function () {
+                stompClient.send("/hello", {}, JSON.stringify({'name': $("#username").val(), 'content':$("#content").val()}))
+            })
+        })
+
+        function connect() {
+            if (!$("#username").val()) {
+                return;
+            }
+            // 建立连接
+           let socketJs =  new SockJS("/iwin/chat");
+           stompClient = Stomp.over(socketJs);
+           stompClient.connect({},
+               function (frame) {
+                   console.log("连接建立成功！");
+                   setConnect(true)
+                   // 订阅
+                   stompClient.subscribe("/topic/hello", function (data) {
+                       let msgContent = JSON.parse(data.body);
+                       console.log("相应消息"+msgContent)
+                       $("#chat").append("<div>"+ msgContent.name + ":" + msgContent.content +"</div> ")
+                   })
+               },
+               function () {
+                   console.log("连接建立失败!")
+               }
+           )
+        }
+
+        function setConnect(connected) {
+            $("#connect").prop("disabled", connected);
+            $("#disconnect").prop("disabled", !connected);
+        }
+    })
+</script>
+</body>
+</html>
