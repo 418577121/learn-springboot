@@ -3,6 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot-001/springboot-001.iml" filepath="$PROJECT_DIR$/springboot-001/springboot-001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-002/springboot-002.iml" filepath="$PROJECT_DIR$/springboot-002/springboot-002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-003/springboot-003.iml" filepath="$PROJECT_DIR$/springboot-003/springboot-003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-004/springboot-004.iml" filepath="$PROJECT_DIR$/springboot-004/springboot-004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-apollo/springboot-apollo.iml" filepath="$PROJECT_DIR$/springboot-apollo/springboot-apollo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-ceair/springboot-ceair.iml" filepath="$PROJECT_DIR$/springboot-ceair/springboot-ceair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-oracle/springboot-oracle.iml" filepath="$PROJECT_DIR$/springboot-oracle/springboot-oracle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-sync/springboot-sync.iml" filepath="$PROJECT_DIR$/springboot-sync/springboot-sync.iml" />
     </modules>
   </component>
 </project>

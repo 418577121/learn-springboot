@@ -4,114 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a46f120-e58a-4463-83a9-2afce5bc8298" name="Default Changelist" comment="springboot 。。。。">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_4_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_4_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_client_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_core_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_ha_ons_19_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_ha_simplefan_19_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ojdbc8_19_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_jdbc_ucp_19_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_security_oraclepki_19_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_security_osdt_cert_19_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_oracle_database_security_osdt_core_19_3_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_67_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_46.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_31.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_quartz_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_15_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-ceair/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/java/com/iwin/config/MyMetaObjectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/java/com/iwin/config/MybatisPlusCustomizers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/java/com/iwin/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-oracle/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sync/src/main/java/com/iwin/config/QuartzSimpleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sync/src/main/java/com/iwin/task/QuartzSimpleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-sync/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="4a46f120-e58a-4463-83a9-2afce5bc8298" name="Default Changelist" comment="sql">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -119,7 +12,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-003/src/test/java/com/iwin/Springboot003ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-003/src/test/java/com/iwin/Springboot003ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-004/src/main/java/com/iwin/controller/SysDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-004/src/main/java/com/iwin/controller/SysDeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-004/src/test/java/com/iwin/Springboot004ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-004/src/test/java/com/iwin/Springboot004ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/Springboot004Application.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-004/target/classes/com/iwin/controller/SysDeptController.class" beforeDir="false" />
@@ -138,6 +34,15 @@
       <change beforePath="$PROJECT_DIR$/springboot-004/target/springboot-004-0.0.1-SNAPSHOT.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-004/target/springboot-004-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-004/target/test-classes/com/iwin/Springboot004ApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/SpringbootCeairApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/SpringbootCeairApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/entity/SysDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/entity/SysDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-ceair/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-ceair/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-redis/target/classes/com/iwn/SpringbootRedisApplication.class" beforeDir="false" />
@@ -221,7 +126,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/springboot-001/src/main/java/com/iwin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-ceair/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-ceair/src/main/java/com/iwin/utils" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -241,20 +146,22 @@
       <recent name="com.iwin.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\java_project\learn-springboot\springboot-ceair\src\main\java\com\iwin\utils" />
+      <recent name="D:\study\java_project\learn-springboot\springboot-ceair\src\main\java\com\iwin\exception" />
+      <recent name="D:\study\java_project\learn-springboot\springboot-oracle\src\main\java\com\iwin\exception" />
       <recent name="D:\study\java_project\learn-springboot\springboot-ceair\src\main\resources" />
       <recent name="D:\study\java_project\learn-springboot\springboot-oracle\src\main\resources" />
-      <recent name="D:\study\java_project\learn-springboot\springboot-004\src\main\java\com\iwin\utils" />
-      <recent name="D:\study\java_project\learn-springboot\springboot-003\src\main\resources\com\iwin\mapper" />
-      <recent name="D:\study\java_project\learn-springboot\springboot-001\src\main\resources\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\study\java_project\learn-springboot\springboot-ceair\src\main\resources\mapper" />
       <recent name="D:\study\java_project\learn-springboot\springboot-002\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.iwin.response" />
+      <recent name="com.iwin.exception" />
+      <recent name="com.iwin.config" />
       <recent name="com.iwin.entity" />
       <recent name="com.iwin.controller" />
-      <recent name="com.iwin.common" />
-      <recent name="com.iwin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -264,14 +171,32 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringbootCeairApplicationTests.startGenerator">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.SpringbootCeairApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot004ApplicationTests.test0001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.iwin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.iwin" />
+      <option name="MAIN_CLASS_NAME" value="com.iwin.Springboot004ApplicationTests" />
+      <option name="METHOD_NAME" value="test0001" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,22 +268,6 @@
       <option name="PACKAGE_NAME" value="com.iwin" />
       <option name="MAIN_CLASS_NAME" value="com.iwin.SpringbootOracleApplicationTests" />
       <option name="METHOD_NAME" value="startGenerator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringbootRedisApplicationTests.sendAttachmentsMailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.iwn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.iwn" />
-      <option name="MAIN_CLASS_NAME" value="com.iwn.SpringbootRedisApplicationTests" />
-      <option name="METHOD_NAME" value="sendAttachmentsMailTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -437,7 +346,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SpringbootRedisApplicationTests.sendAttachmentsMailTest" />
       <item itemvalue="JUnit.SpringbootApolloApplicationTests.contextLoads" />
       <item itemvalue="JUnit.SpringbootApolloApplicationTests.testApollo" />
       <item itemvalue="JUnit.SpringbootOracleApplicationTests.startGenerator" />
@@ -452,14 +360,15 @@
       <item itemvalue="Spring Boot.SpringbootApolloApplication" />
       <item itemvalue="Spring Boot.SpringbootOracleApplication" />
       <item itemvalue="Spring Boot.SpringbootCeairApplication" />
+      <item itemvalue="JUnit.Springboot004ApplicationTests.test0001" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Springboot004ApplicationTests.test0001" />
         <item itemvalue="JUnit.SpringbootCeairApplicationTests.startGenerator" />
         <item itemvalue="JUnit.SpringbootOracleApplicationTests.startGenerator" />
         <item itemvalue="JUnit.SpringbootApolloApplicationTests.testApollo" />
         <item itemvalue="JUnit.SpringbootApolloApplicationTests.contextLoads" />
-        <item itemvalue="JUnit.SpringbootRedisApplicationTests.sendAttachmentsMailTest" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +411,8 @@
       <workItem from="1630321262746" duration="7918000" />
       <workItem from="1630584741895" duration="12212000" />
       <workItem from="1630768468347" duration="3255000" />
-      <workItem from="1630804168460" duration="454000" />
+      <workItem from="1630804168460" duration="6716000" />
+      <workItem from="1630811130096" duration="13160000" />
     </task>
     <task id="LOCAL-00001" summary="修改包名称">
       <created>1629078008435</created>
@@ -658,7 +568,28 @@
       <option name="project" value="LOCAL" />
       <updated>1630584835538</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="springboot mybatis_plus oracle">
+      <created>1630804861444</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1630804861444</updated>
+    </task>
+    <task id="LOCAL-00024" summary="忽略文件">
+      <created>1630804965453</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1630804965453</updated>
+    </task>
+    <task id="LOCAL-00025" summary="sql">
+      <created>1630825105074</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1630825105074</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +629,10 @@
     <MESSAGE value="springboot 只是邮件上传" />
     <MESSAGE value="springboot 支持邮件功能" />
     <MESSAGE value="springboot 。。。。" />
-    <option name="LAST_COMMIT_MESSAGE" value="springboot 。。。。" />
+    <MESSAGE value="springboot mybatis_plus oracle" />
+    <MESSAGE value="忽略文件" />
+    <MESSAGE value="sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

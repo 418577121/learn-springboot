@@ -1,11 +1,23 @@
 package com.iwin.entity;
 
 import java.math.BigDecimal;
+
+import com.baomidou.mybatisplus.annotation.FieldFill;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.validation.constraints.Pattern;
 
 /**
  * <p>
@@ -17,13 +29,16 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class SysUser extends Model<SysUser> {
+@AllArgsConstructor
+@NoArgsConstructor
+public class SysUser extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 用户ID
      */
+    @TableId(type = IdType.AUTO)
     private String userId;
 
     /**
@@ -64,6 +79,7 @@ public class SysUser extends Model<SysUser> {
     /**
      * 用户邮箱
      */
+    @Pattern(regexp="[a-za-z0-9._%+-]+@[a-za-z0-9.-]+\\.[a-za-z]{2,4}", message="请输入正确的邮件格式")
     private String email;
 
     /**
@@ -101,20 +117,12 @@ public class SysUser extends Model<SysUser> {
      */
     private String ownerId;
 
-    /**
-     * 创建时间
-     */
-    private LocalDateTime createTime;
 
     /**
      * 更新者
      */
     private String updateId;
 
-    /**
-     * 更新时间
-     */
-    private LocalDateTime updateTime;
 
     /**
      * 备注
@@ -126,10 +134,5 @@ public class SysUser extends Model<SysUser> {
      */
     private Integer delFlag;
 
-
-    @Override
-    protected Serializable pkVal() {
-        return this.userId;
-    }
 
 }

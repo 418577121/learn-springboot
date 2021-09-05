@@ -123,8 +123,6 @@ public class Springboot004ApplicationTests {
 
     @Test
     public void test0001() {
-        SysDeptNode sysDeptNode = new SysDeptNode();
-        System.out.println(sysDeptNode.getDeptId());
     }
 
 }

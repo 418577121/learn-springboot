@@ -3,6 +3,15 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/springboot-001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-apollo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-ceair/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-oracle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-sync/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

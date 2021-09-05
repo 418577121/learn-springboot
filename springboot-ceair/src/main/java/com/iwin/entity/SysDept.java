@@ -1,5 +1,7 @@
 package com.iwin.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import java.time.LocalDateTime;
 import java.io.Serializable;
@@ -16,13 +18,14 @@ import lombok.EqualsAndHashCode;
  */
 @Data
 @EqualsAndHashCode(callSuper = false)
-public class SysDept extends Model<SysDept> {
+public class SysDept extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
     /**
      * 部门id
      */
+    @TableId(type = IdType.AUTO)
     private String deptId;
 
     /**
@@ -40,10 +43,6 @@ public class SysDept extends Model<SysDept> {
      */
     private Integer status;
 
-    /**
-     * 删除标志（0代表存在 1代表删除）
-     */
-    private Integer delFlag;
 
     /**
      * 创建者
@@ -51,24 +50,12 @@ public class SysDept extends Model<SysDept> {
     private String createId;
 
     /**
-     * 创建时间
-     */
-    private LocalDateTime createTime;
-
-    /**
      * 更新者
      */
     private String updateId;
 
-    /**
-     * 更新时间
-     */
-    private LocalDateTime updateTime;
 
 
-    @Override
-    protected Serializable pkVal() {
-        return this.deptId;
-    }
+
 
 }

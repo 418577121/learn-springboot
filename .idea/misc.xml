@@ -4,10 +4,19 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/springboot-001/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-002/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-003/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-004/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-005/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-sync/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-apollo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-oracle/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-ceair/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
